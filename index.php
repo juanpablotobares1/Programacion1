@@ -57,7 +57,7 @@
     <table border="6" bgcolor="white">
         <tr>
             <td bgcolor="blue">
-                <b>Trabajo Practico 1</b>
+                <b>Trabajo Practico 2</b>
             </td>
             <td>
                 <a href="/Programacion1/Tp2/ejercicio1.php"><h4>   Ejercicio 1</h4></a>
