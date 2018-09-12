@@ -9,12 +9,13 @@
 		echo "Cantidad de elementos: $el<br><br>";
 		$aux=0;
 		$sum=0;
+		$arr=array();
 		for ($i=0; $i < $el; $i++) { 
 			$aux=$aux+1;
 			echo "Elemento $aux: ";
 			$num=rand(1,100);
 			echo"$num";
-			$arr[$i]=$num;
+			array_push($arr, $num);
 			$sum=$sum+$num;
 			echo "<br>";
 		}

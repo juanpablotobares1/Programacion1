@@ -5,10 +5,12 @@
 </head>
 <body>
 	<?php
-		echo "<pre>";
+		$arr= array();
 		for ($i=0; $i < 15; $i++) { 
-		 	$arr[$i]=rand(1,50);
+		 	$num=rand(1,50);
+		 	array_push($arr, $num);
 		 } 
+		echo "<pre>";
 		echo "Arreglo Original:<br>";
 		print_r($arr);
 		$arr1=array_unique($arr);
