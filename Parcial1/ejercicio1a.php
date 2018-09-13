@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Parcial 1</title>
+	<title>Ejercicio 1</title>
 </head>
 <body>
 	<form action="ejercicio1b.php" method="post">
