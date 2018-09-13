@@ -4,13 +4,14 @@
 	<title>Ejercicio 7</title>
 </head>
 <body>
-	<form>
+	<form action="ejercicio7b.php" method="post">
 		<?php
-		$arr=array();
-		for ($i=0; $i < $_GET['num']; $i++) { 
-		  	echo "N°".++$nums."= <input type="text"><input type="submit" value="Enviar">";
+		for ($i=0; $i < $_POST['num']; $i++) { 
+		  	echo "N°".++$n." ";
+		  	echo "<input type='number' name='num$i'><br><br>";
 		  }
 		?>
+		<input type="submit" value="Enviar">
 	</form>
 </body>
 </html>
