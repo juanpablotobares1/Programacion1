@@ -5,7 +5,7 @@
 </head>
 <body>
 <?php
-$var = $_GET['id'];
+$id = $_GET['id'];
 
 $servidor = 'localhost';
 $usuario = 'juanpablo';
@@ -19,7 +19,7 @@ $sql = 'select * from persona';
 $ejecsql = $conexion -> prepare($sql);
 $ejecsql -> execute();
 
-$registro=array('id' => $var);
+$registro=array('id' => $id);
 
 $sql = 'DELETE FROM persona WHERE id = :id';
 
