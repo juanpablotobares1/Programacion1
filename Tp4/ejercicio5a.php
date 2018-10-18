@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Ejercicio 4</title>
+	<title>Ejercicio 5</title>
 </head>
 <body>
 <h2>Base de Datos: programacion1</h2>
@@ -28,11 +28,13 @@ while ($fila = $ejecsql -> fetch(PDO::FETCH_ASSOC)) {
 		echo $key;
 		echo "</td>";
 	}
-	echo "<td><a href='ejercicio4c.php?id=".$fila['id']."'>Eliminar</a></td>";
+	echo "<td><a href='ejercicio5c.php?id=".$fila['id']."'>Eliminar</a></td>";
+	echo "<td><a href='ejercicio5d.php?id=".$fila['id']."'>Editar</a></td>";
 	echo "</tr>";
 }
 ?>
 </table>
-<a href="ejercicio4.html">Agregar un nuevo registro a la tabla persona</a>
+<br>
+<a href="ejercicio5a.html">Agregar un nuevo registro a la tabla persona</a>
 </body>
 </html>

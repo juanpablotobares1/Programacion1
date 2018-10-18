@@ -18,6 +18,6 @@ $sql = "INSERT INTO persona (nombre, apellido, documento, edad) VALUES (:nombre,
 $ejecsql = $conexion -> prepare($sql);
 $ejecsql -> execute($registro);
 
-header('location: ejercicio4a.php');
+header('location: ejercicio5a.php');
 die();
 ?>
